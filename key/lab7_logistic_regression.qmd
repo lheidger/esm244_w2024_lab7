@@ -300,7 +300,7 @@ collect_metrics(rf_fit_folds)
 
 ## Last fit!
 
-We tried a logistic regression and random forest model on our training data, using cross validation to resample the training data and see how each model performed.  With the fare included as a predictor, the random forest modestly outperformed the logistic regression in the crossvalidation step.
+We tried a logistic regression and random forest model on our training data, using cross validation to resample the training data and see how each model performed.  With the fare included as a predictor, the random forest modestly outperformed the logistic regression in the cross-validation step.
 
 ```{r}
 last_rf_fit <- rf_wf %>%
